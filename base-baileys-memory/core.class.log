@@ -1,0 +1,287 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218445922282@s.whatsapp.net',
+    fromMe: false,
+    id: '0A3AB9E907A797032617C6C71AC24496',
+    participant: undefined
+  },
+  messageTimestamp: 1697071101,
+  pushName: 'Mimishi',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/18984484_859639422353969_4221693004583476430_n.enc?ccb=11-4&oh=01_AdQLVVE-vbtPXcgsJBfoAf7t4EJaIAzHbu-7Rp32TEPVkQ&oe=654EA635&_nc_sid=000000&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 2,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/18984484_859639422353969_4221693004583476430_n.enc?ccb=11-4&oh=01_AdQLVVE-vbtPXcgsJBfoAf7t4EJaIAzHbu-7Rp32TEPVkQ&oe=654EA635&_nc_sid=000000',
+      mediaKeyTimestamp: [Long]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_voice_note__45ed1a14-fb36-48da-8d86-a27ae1f461c1',
+  from: '5218445922282'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8e5db636-1afe-49a6-8064-c7c9f5a85934',
+  keyword: 'key_ccea9d5c-89e5-4541-b3f1-b1307f2cfa75',
+  answer: 'Te escucho en un momento 👂',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '71826ae84d8c63ef30d0d7e0bd2cfd08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218446703612@s.whatsapp.net',
+    fromMe: false,
+    id: '3E019D88E9967E1093D5BB60B05FCDB5',
+    participant: undefined
+  },
+  messageTimestamp: 1697073912,
+  pushName: 'Selene  García 💕',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola marco',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola marco',
+  from: '5218446703612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_46edb2bb-a8eb-4ca4-9170-a9f102d52686',
+  keyword: 'key_3d0df9db-71c9-4fd2-8d07-eac1f94df8e0',
+  answer: 'Hola! Bienvenido a Marc7Commerce 🤝',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'db6b16dcf4f56624d9dc3b959fe414fd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218446703612@s.whatsapp.net',
+    fromMe: false,
+    id: '959281694D8BB04E747F2574F696997B',
+    participant: undefined
+  },
+  messageTimestamp: 1697073919,
+  pushName: 'Selene  García 💕',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Oye...',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Oye...',
+  from: '5218446703612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_46edb2bb-a8eb-4ca4-9170-a9f102d52686',
+  keyword: 'key_3d0df9db-71c9-4fd2-8d07-eac1f94df8e0',
+  answer: 'Hola! Bienvenido a Marc7Commerce 🤝',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'db6b16dcf4f56624d9dc3b959fe414fd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218446703612@s.whatsapp.net',
+    fromMe: false,
+    id: '0302B415EC6F26488D10E6ADA2726D5D',
+    participant: undefined
+  },
+  messageTimestamp: 1697073952,
+  pushName: 'Selene  García 💕',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ahí en la oficina hay desarmadores y eso para abrir las lap',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ahí en la oficina hay desarmadores y eso para abrir las lap',
+  from: '5218446703612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_46edb2bb-a8eb-4ca4-9170-a9f102d52686',
+  keyword: 'key_3d0df9db-71c9-4fd2-8d07-eac1f94df8e0',
+  answer: 'Hola! Bienvenido a Marc7Commerce 🤝',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'db6b16dcf4f56624d9dc3b959fe414fd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218446703612@s.whatsapp.net',
+    fromMe: false,
+    id: 'D1C2A32E7D7552888AABAAB04180BC77',
+    participant: undefined
+  },
+  messageTimestamp: 1697073967,
+  pushName: 'Selene  García 💕',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Es que no se que le pasó a la mía, que no quiere funcionar 🥺',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Es que no se que le pasó a la mía, que no quiere funcionar 🥺',
+  from: '5218446703612'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_46edb2bb-a8eb-4ca4-9170-a9f102d52686',
+  keyword: 'key_3d0df9db-71c9-4fd2-8d07-eac1f94df8e0',
+  answer: 'Hola! Bienvenido a Marc7Commerce 🤝',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'db6b16dcf4f56624d9dc3b959fe414fd'
+}
+[handleMsg]:  {
+  key: MessageKey {
+    remoteJid: '120363023267348900@g.us',
+    fromMe: false,
+    id: '3AB5661DFC3892409CEC',
+    participant: '5214778113624@s.whatsapp.net'
+  },
+  update: { pollUpdates: [ [Object] ] },
+  body: 'Yo mero',
+  from: '120363023267348900@g.us',
+  pushName: 'Mike',
+  broadcast: false,
+  messageTimestamp: 1697074567,
+  voters: Message {
+    senderKeyDistributionMessage: SenderKeyDistributionMessage {
+      groupId: '120363023267348900@g.us',
+      axolotlSenderKeyDistributionMessage: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo { messageSecret: [Uint8Array] },
+    pollCreationMessageV3: PollCreationMessage {
+      options: [Array],
+      name: 'Quien se apunta para un club de ciberseguridad',
+      selectableOptionsCount: 1
+    }
+  },
+  type: 'poll'
+}
+[ERROR ID (ans_46edb2bb-a8eb-4ca4-9170-a9f102d52686)]:  Error: Timed Out
+    at C:\Users\marc7\My Drive\PROYECTOS\Chatbot\base-baileys-memory\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:136:32 {
+  data: {
+    stack: 'Error\n' +
+      '    at promiseTimeout (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:131:19)\n' +
+      '    at waitForMessage (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:114:53)\n' +
+      '    at query (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:136:22)\n' +
+      '    at getUSyncDevices (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\messages-send.js:166:30)\n' +
+      '    at C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\messages-send.js:355:53\n' +
+      '    at Object.transaction (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\auth-utils.js:136:32)\n' +
+      '    at relayMessage (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\messages-send.js:278:30)\n' +
+      '    at Object.sendMessage (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\messages-send.js:649:23)\n' +
+      '    at async CoreClass.sendProviderAndSave (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@bot-whatsapp\\bot\\lib\\bundle.bot.cjs:1271:21)\n' +
+      '    at async Object.promiseInFunc (C:\\Users\\marc7\\My Drive\\PROYECTOS\\Chatbot\\base-baileys-memory\\node_modules\\@bot-whatsapp\\bot\\lib\\bundle.bot.cjs:1045:29)'
+  },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 408,
+    payload: {
+      statusCode: 408,
+      error: 'Request Time-out',
+      message: 'Timed Out'
+    },
+    headers: {}
+  }
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_46edb2bb-a8eb-4ca4-9170-a9f102d52686',
+  keyword: 'key_3d0df9db-71c9-4fd2-8d07-eac1f94df8e0',
+  answer: 'Hola! Bienvenido a Marc7Commerce 🤝',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'db6b16dcf4f56624d9dc3b959fe414fd'
+}
