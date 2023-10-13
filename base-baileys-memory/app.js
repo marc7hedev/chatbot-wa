@@ -4,7 +4,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-// // Pirmer flow (flujo) conversacional
+// // Primer flow (flujo) conversacional
 // const flowSaludo = addKeyword(["hola","buenas","hey"],
 //     {
 //         sensitive: false,
@@ -14,7 +14,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 // const flowDespedida = addKeyword(["adios", "bye", "chao"]).addAnswer("Hasta luego, bonito día.")
 
 
-
+// Esto es una prueba!!!!!!
 
 
 
