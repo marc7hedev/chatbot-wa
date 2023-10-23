@@ -105,9 +105,18 @@ Si el usuario escribe "bye" después del "¿como puedo ayudarte?" entonces se ac
 //Flujo hijo: Usaremos como argumento una función callback que hace uso de la librería axios, la cual conectará a la api de fakestore para hacer pruebas.
 const flujoDeProductos = addKeyword("VER").addAnswer("Consultando base de datos... por favor espere un momento", null, 
     async (ctx, {flowDynamic}) => {
+        let contador = 1;
         const respuesta = await axios("https://fakestoreapi.com/products");
-        respuesta.data;
-        console.log(respuesta.data);
+        
+        //Este For recorre la cantidad de veces que hay datos en "respuesta", que vendrían siendo 20 lo que nos arroja la api, pero indicamos que al llegar a 4 registros, detenga el ciclo.
+        for (const item of respuesta.data){
+            if (contador > 4) break;
+            contador++;
+            flowDynamic([{
+                body:[item.title + "\n$" + "*"+item.price+"*"], 
+                media:item.image
+            }]);
+        }
     }
 );
 
