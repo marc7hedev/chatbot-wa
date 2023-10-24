@@ -139,7 +139,18 @@ const flujoMenu = addKeyword("menu").addAnswer("Estas son las especialidades de 
     "*2.-* Hawaiana",
     "*3.-* Mexicana",
     "*4.-* Al pastor"
-]);
+    ],
+    {capture: true},
+    //Con fallBack entraremos en un bucle hasta que el usuario ingrese alguna opción válida.
+    async(ctx, {fallBack}) => {
+        //if (ctx.body !== "1" && ctx.body !== "2" && ctx.body !== "3" && ctx.body !== "4")
+        if(!["1","2","3","4"].includes(ctx.body)){
+            return fallBack("Opción no valida, por favor intente de nuevo");
+        }
+        console.log(`Pedido capturado: ${ctx.body}`);
+    }
+)
+.addAnswer("Pedido capturado exitosamente");
 
 //Flujo padre
 const flujoPrincipal = addKeyword(["hola","buenas"])
