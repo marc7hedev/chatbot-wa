@@ -196,7 +196,11 @@ let GLOBAL_STATE = {}
 const flujoPrincipal = addKeyword("hola")
     .addAnswer("*Bienvenido*")
     .addAnswer("_A continuación comenzaremos con tu pedido_")
-    .addAnswer("¿Cuál es tu nombre?", {capture: true}, async (ctx) => {
+    .addAnswer("¿Cuál es tu nombre?", {capture: true}, async (ctx, {endFlow}) => {
+        //Añadir funcionalidad para cancelar el flujo si el usuario escribe "Cancelar"
+        if (ctx.body === "Cancelar"){
+            return endFlow();
+        }
         //Este objeto nos crea los campos vacíos a modo de plantilla, y actualiza el primer campo "nombre_cliente".
         GLOBAL_STATE[ctx.from] = {
             "nombre_cliente": ctx.body,
@@ -205,10 +209,16 @@ const flujoPrincipal = addKeyword("hola")
             "promocion": ""
         }
     })
-    .addAnswer("¿Dirección de envío?", {capture: true}, async (ctx) => {
+    .addAnswer("¿Dirección de envío?", {capture: true}, async (ctx, {endFlow}) => {
+        if (ctx.body === "Cancelar"){
+            return endFlow();
+        }
         GLOBAL_STATE[ctx.from].direccion = ctx.body;
     })
-    .addAnswer("Código promocional (opcional)", {capture: true}, async (ctx) => {
+    .addAnswer("Código promocional (opcional)", {capture: true}, async (ctx, {endFlow}) => {
+        if (ctx.body === "Cancelar"){
+            return endFlow();
+        }
         GLOBAL_STATE[ctx.from].promocion = ctx.body;
     })
     .addAnswer("_Tu pedido se está procesando..._", null, async (ctx, {flowDynamic}) => {

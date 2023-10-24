@@ -2,10 +2,10 @@
   key: {
     remoteJid: '5218442856149@s.whatsapp.net',
     fromMe: false,
-    id: '47F32B7AC429192AE76EBD5ABE8350F2',
+    id: 'A3CDC6A4C0E0639BABDF094A4C0F94B9',
     participant: undefined
   },
-  messageTimestamp: 1698145205,
+  messageTimestamp: 1698146304,
   pushName: 'Soporte Técnico ICT',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '5218442856149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d6d52294-c23e-4387-bc8f-2b9a87950f14',
-  keyword: 'key_00a2b866-1fcf-48c8-b567-1d59fe6a6871',
+  ref: 'ans_0452eb99-7a92-4c5e-969f-5c8dc6263c90',
+  keyword: 'key_aab514a5-bcda-45dc-a028-cb4c2e31708f',
   answer: '*Bienvenido*',
   options: {
     media: null,
@@ -33,11 +33,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '1cba4abbe35c0df40e018b737c576734'
+  refSerialize: '213fad181ae6ea8f2cc0ab6611220b0e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0a7a63f6-63c4-4f18-bd54-b69b7e7976a6',
-  keyword: 'ans_d6d52294-c23e-4387-bc8f-2b9a87950f14',
+  ref: 'ans_1a8d54a5-09c0-462a-a952-39a5b9776412',
+  keyword: 'ans_0452eb99-7a92-4c5e-969f-5c8dc6263c90',
   answer: '_A continuación comenzaremos con tu pedido_',
   options: {
     media: null,
@@ -50,11 +50,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '7b8df45873c004523c9ffefd30716f8a'
+  refSerialize: '154b6a5e378dbdb1edc28d50fff4e61a'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cc279c4c-3c12-4ae0-a0d7-15a3cea8d62e',
-  keyword: 'ans_0a7a63f6-63c4-4f18-bd54-b69b7e7976a6',
+  ref: 'ans_66b467b6-80a5-479f-98f3-1f06df5aaf0b',
+  keyword: 'ans_1a8d54a5-09c0-462a-a952-39a5b9776412',
   answer: '¿Cuál es tu nombre?',
   options: {
     media: null,
@@ -67,31 +67,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c914474270c0cb7f44d033b57b6aaba2'
+  refSerialize: '21b668084c34c504b6fe224add707f11'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5218442856149@s.whatsapp.net',
     fromMe: false,
-    id: '64ABA2AF09ACCA7367EF9FA1A2E78C63',
+    id: 'F38B01819BA2F6C212E9A9BD3FD33BC3',
     participant: undefined
   },
-  messageTimestamp: 1698145208,
+  messageTimestamp: 1698146309,
   pushName: 'Soporte Técnico ICT',
   broadcast: false,
   message: Message {
-    conversation: 'Pedro',
+    conversation: 'Popo',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Pedro',
+  body: 'Popo',
   from: '5218442856149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f051a1ee-861b-4663-80ac-14d21df5edec',
-  keyword: 'ans_cc279c4c-3c12-4ae0-a0d7-15a3cea8d62e',
+  ref: 'ans_ee71012b-2131-4c46-9416-e98053d8e7e0',
+  keyword: 'ans_66b467b6-80a5-479f-98f3-1f06df5aaf0b',
   answer: '¿Dirección de envío?',
   options: {
     media: null,
@@ -104,79 +104,25 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'b3a1d09152684cc933d7ba9847063e57'
+  refSerialize: 'afb9d2d008dcb4e7737b8043d1d15411'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5218442856149@s.whatsapp.net',
     fromMe: false,
-    id: '5C500FEBF275A439D25256E994DBFE28',
+    id: 'E4D379E0A1977A615CDAEB2C95129230',
     participant: undefined
   },
-  messageTimestamp: 1698145212,
+  messageTimestamp: 1698146312,
   pushName: 'Soporte Técnico ICT',
   broadcast: false,
   message: Message {
-    conversation: 'Caca',
+    conversation: 'Cancelar',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Caca',
+  body: 'Cancelar',
   from: '5218442856149'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7768fd02-5e41-490f-beed-c8f8eff91476',
-  keyword: 'ans_f051a1ee-861b-4663-80ac-14d21df5edec',
-  answer: 'Código promocional (opcional)',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'b933ba101478ae44d966a17e26759b66'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
-    fromMe: false,
-    id: '87B05B3BA6CBDC64D888B8D807118B26',
-    participant: undefined
-  },
-  messageTimestamp: 1698145215,
-  pushName: 'Soporte Técnico ICT',
-  broadcast: false,
-  message: Message {
-    conversation: '837"+#',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '837"+#',
-  from: '5218442856149'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_200011c9-f14c-411f-a7ab-6b4eddc67781',
-  keyword: 'ans_7768fd02-5e41-490f-beed-c8f8eff91476',
-  answer: '_Tu pedido se está procesando..._',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '0daf2bd7282d0c4e8cf10eca6d40e7ed'
 }
