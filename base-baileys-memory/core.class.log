@@ -1,64 +1,27 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
+    remoteJid: '5218445922282@s.whatsapp.net',
     fromMe: false,
-    id: 'B83745E997FA9A804FE0296DCFF9F206',
+    id: '269CD6FAC0B0426E09FE9EF53D9C2E38',
     participant: undefined
   },
-  messageTimestamp: 1698065564,
-  pushName: 'Soporte Técnico ICT',
+  messageTimestamp: 1698078792,
+  pushName: 'Mimishi',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    conversation: 'Buenas',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
-  from: '5218442856149'
+  body: 'Buenas',
+  from: '5218445922282'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7ea90686-7d5e-4ad7-8ee8-7cadd17574c5',
-  keyword: 'key_056d79be-13d3-4a3a-8a61-a87f4dd17898',
-  answer: "Bienvenido a mi e-commerce, escribe 'VER' para consultar items ",
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [ [Object], [Object] ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'ac7e3bdc2955730f6213c34334b9cbee'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
-    fromMe: false,
-    id: '137422C5ACE4CA5BBDAFF02BC3122A72',
-    participant: undefined
-  },
-  messageTimestamp: 1698065567,
-  pushName: 'Soporte Técnico ICT',
-  broadcast: false,
-  message: Message {
-    conversation: 'Ver',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ver',
-  from: '5218442856149'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_4bbae62f-867b-44e9-98b2-8f486f11c807',
-  keyword: 'key_e31b2266-2729-4e69-bcf5-bc485964446f',
-  answer: 'Consultando base de datos... por favor espere un momento',
+  ref: 'ans_37fc6af5-c7cd-4d8f-8f50-de1054f289cc',
+  keyword: 'key_a615cc72-15f4-406e-af02-fc83b0b9fdbc',
+  answer: '*Bienvenido a KheBuenaPizza🍕🥤\nÉchale un vistazo al menú del día 🧐',
   options: {
     media: null,
     buttons: [],
@@ -68,7 +31,119 @@
     idle: null,
     nested: [],
     keyword: {},
-    callback: true
+    callback: false
   },
-  refSerialize: '0cb8ce0dbe77d520cce6b847314e9e0c'
+  refSerialize: 'b50a7af4d0af1191f58bc210826f39dc'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_434066e2-e00c-4ab6-864b-8b9945293d3a',
+  keyword: 'ans_37fc6af5-c7cd-4d8f-8f50-de1054f289cc',
+  answer: 'Escribe *menu* para ver todas las opciones.\n' +
+    'Escribe *humano* para contactar contigo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '71e146a822fb36ab32dd9b5783f869a0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218445922282@s.whatsapp.net',
+    fromMe: false,
+    id: '8F7157C672732C0600407A6182A54F7E',
+    participant: undefined
+  },
+  messageTimestamp: 1698078815,
+  pushName: 'Mimishi',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu',
+  from: '5218445922282'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb4fc5fc-ddcb-4562-a53e-526d3331bf76',
+  keyword: 'key_93055406-70b0-4848-9ce5-00b8a89b589c',
+  answer: 'Estas son las especialidades de hoy 👩‍🍳 ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '00136efea6e79ad51e2a8f682a1990d1'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5a8dcbb1-1db3-4d51-b13a-0fcbc598bca1',
+  keyword: 'ans_cb4fc5fc-ddcb-4562-a53e-526d3331bf76',
+  answer: '*1.-* Pepperoni\n*2.-* Hawaiana\n*3.-* Mexicana\n*4.-* Al pastor',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '15ca8d0d48133ff40929ebdc192bf7a3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218445922282@s.whatsapp.net',
+    fromMe: false,
+    id: 'C51EF67E332CFABBBB918DF252845749',
+    participant: undefined
+  },
+  messageTimestamp: 1698078821,
+  pushName: 'Mimishi',
+  broadcast: false,
+  message: Message {
+    conversation: 'Humano',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Humano',
+  from: '5218445922282'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218445922282@s.whatsapp.net',
+    fromMe: false,
+    id: '50FF321473B1D66FB6F76264EE59ECF4',
+    participant: undefined
+  },
+  messageTimestamp: 1698078829,
+  pushName: 'Mimishi',
+  broadcast: false,
+  message: Message {
+    conversation: '😂',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '😂',
+  from: '5218445922282'
 }

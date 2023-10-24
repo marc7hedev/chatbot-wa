@@ -100,8 +100,11 @@ const flujoBienvenida = addKeyword("hola").addAnswer("Bienvenido a la tienda").
 Si el usuario escribe "bye" después del "¿como puedo ayudarte?" entonces se activará el flujo secundario, el cual responderá el mensaje "Hasta luego, cuídate!".
 */
 
+
 // !LOS BOTONES NO ESTÁN FUNCIONANDO CON PROVEEDORES GRATUITOS COMO BAILEYS, CON META Y TWILIO SI ESTAN FUNCIONADO!!!
 
+/*
+//! FLUJOS DINÁMICOS.
 //Flujo hijo: Usaremos como argumento una función callback que hace uso de la librería axios, la cual conectará a la api de fakestore para hacer pruebas.
 const flujoDeProductos = addKeyword("VER").addAnswer("Consultando base de datos... por favor espere un momento", null, 
     async (ctx, {flowDynamic}) => {
@@ -113,42 +116,66 @@ const flujoDeProductos = addKeyword("VER").addAnswer("Consultando base de datos.
             if (contador > 4) break;
             contador++;
             flowDynamic([{
-                body:[item.title + "\n$" + "*"+item.price+"*"], 
+                body:[item.title + "\n*$" + +item.price+"*"], 
                 media:item.image
             }]);
         }
     }
 );
 
-
-// Flujos dinámicos
 const flujoInicial = addKeyword("hola").addAnswer("Bienvenido a mi e-commerce, escribe 'VER' para consultar items ", null, null, [flujoDeProductos]);
+
+*/
+
+//! FLUJOS HIJOS
+
+
+// *Los flujos hijos se declaran antes que el flujo padre
+const flujoHumano = addKeyword("humano")
+.addAnswer("Te echaremos un grito a la brevedad ;)");
+const flujoMenu = addKeyword("menu").addAnswer("Estas son las especialidades de hoy 👩‍🍳 ")
+.addAnswer([
+    "*1.-* Pepperoni",
+    "*2.-* Hawaiana",
+    "*3.-* Mexicana",
+    "*4.-* Al pastor"
+]);
+
+//Flujo padre
+const flujoPrincipal = addKeyword(["hola","buenas"])
+.addAnswer([
+    "*Bienvenido a KheBuenaPizza🍕🥤",
+    "Échale un vistazo al menú del día 🧐"
+])
+.addAnswer([
+    "Escribe *menu* para ver todas las opciones.",
+    "Escribe *humano* para contactar contigo"
+],
+null,
+null,
+[flujoMenu, flujoHumano]
+);
+
+
 
 
 
 
 //* Definición de función principal main
 const main = async () => {
-    
     const adapterDB = new MockAdapter();
-    
     const adapterProvider = createProvider(BaileysProvider);
-    
     // Flujos globales, se dispararán en cualquier contexto y momento de la conversación.
-    const adapterFlow = createFlow([flujoInicial]);
-    
+    const adapterFlow = createFlow([flujoPrincipal]);
     createBot({
         flow: adapterFlow,
         provider: adapterProvider,
         database: adapterDB,
     });
-
     QRPortalWeb();
 }
 
 main();
-
-
 
 /*
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
