@@ -2,39 +2,14 @@
   key: {
     remoteJid: '5218442856149@s.whatsapp.net',
     fromMe: false,
-    id: '896563E646C7C7327DC5433C7D5B5D0D',
+    id: '47F32B7AC429192AE76EBD5ABE8350F2',
     participant: undefined
   },
-  messageTimestamp: 1698135831,
+  messageTimestamp: 1698145205,
   pushName: 'Soporte Técnico ICT',
   broadcast: false,
   message: Message {
-    protocolMessage: ProtocolMessage { key: [MessageKey], type: 0 },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '',
-  from: '5218442856149'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
-    fromMe: false,
-    id: '55F11677B13E5403ACF12B0E99E6189A',
-    participant: undefined
-  },
-  messageTimestamp: 1698135840,
-  pushName: 'Soporte Técnico ICT',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Hola',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
@@ -44,9 +19,9 @@
   from: '5218442856149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_7a535f9a-b3e1-4e4b-aaae-d4e0b744f816',
-  keyword: 'key_a4e3f868-f3a2-4ff8-8bd3-f729d2c2470f',
-  answer: '*Bienvenido a KheBuenaPizza🍕🥤\nÉchale un vistazo al menú del día 🧐',
+  ref: 'ans_d6d52294-c23e-4387-bc8f-2b9a87950f14',
+  keyword: 'key_00a2b866-1fcf-48c8-b567-1d59fe6a6871',
+  answer: '*Bienvenido*',
   options: {
     media: null,
     buttons: [],
@@ -58,50 +33,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '997642e348befb2f8aaf16c399323129'
+  refSerialize: '1cba4abbe35c0df40e018b737c576734'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_45ae1aa9-b7ad-4a6b-bf9e-651dbd0bd723',
-  keyword: 'ans_7a535f9a-b3e1-4e4b-aaae-d4e0b744f816',
-  answer: 'Escribe *menu* para ver todas las opciones.\n' +
-    'Escribe *humano* para contactar contigo',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '4306373aef87d0609ad6bff2caee1efa'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
-    fromMe: false,
-    id: 'FCC18321903E930EA564C778336FA1FB',
-    participant: undefined
-  },
-  messageTimestamp: 1698135846,
-  pushName: 'Soporte Técnico ICT',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Menu',
-  from: '5218442856149'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c64074a5-72ab-40a8-aa5e-bb622a54b510',
-  keyword: 'key_fabc0e30-3f19-41ed-b3f0-3ed8720238f7',
-  answer: 'Estas son las especialidades de hoy 👩‍🍳 ',
+  ref: 'ans_0a7a63f6-63c4-4f18-bd54-b69b7e7976a6',
+  keyword: 'ans_d6d52294-c23e-4387-bc8f-2b9a87950f14',
+  answer: '_A continuación comenzaremos con tu pedido_',
   options: {
     media: null,
     buttons: [],
@@ -113,12 +50,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '17bc619c5f8731b1ff21974f8393faa5'
+  refSerialize: '7b8df45873c004523c9ffefd30716f8a'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d8d8bd6b-b38c-44c6-97d7-302c902aa0c6',
-  keyword: 'ans_c64074a5-72ab-40a8-aa5e-bb622a54b510',
-  answer: '*1.-* Pepperoni\n*2.-* Hawaiana\n*3.-* Mexicana\n*4.-* Al pastor',
+  ref: 'ans_cc279c4c-3c12-4ae0-a0d7-15a3cea8d62e',
+  keyword: 'ans_0a7a63f6-63c4-4f18-bd54-b69b7e7976a6',
+  answer: '¿Cuál es tu nombre?',
   options: {
     media: null,
     buttons: [],
@@ -130,72 +67,106 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'd00f4215c79d486fb582050abe68ee3d'
+  refSerialize: 'c914474270c0cb7f44d033b57b6aaba2'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5218442856149@s.whatsapp.net',
     fromMe: false,
-    id: '24EA3E092F8C03DFD42EA909E11EB18C',
+    id: '64ABA2AF09ACCA7367EF9FA1A2E78C63',
     participant: undefined
   },
-  messageTimestamp: 1698135851,
+  messageTimestamp: 1698145208,
   pushName: 'Soporte Técnico ICT',
   broadcast: false,
   message: Message {
-    conversation: 'A',
+    conversation: 'Pedro',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'A',
-  from: '5218442856149'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
-    fromMe: false,
-    id: '4E7806DD1C4559DA314292B4FD8F761A',
-    participant: undefined
-  },
-  messageTimestamp: 1698135854,
-  pushName: 'Soporte Técnico ICT',
-  broadcast: false,
-  message: Message {
-    conversation: 'N',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'N',
-  from: '5218442856149'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
-    fromMe: false,
-    id: '569BA30F14683B7EE229E4EBEC504F80',
-    participant: undefined
-  },
-  messageTimestamp: 1698135859,
-  pushName: 'Soporte Técnico ICT',
-  broadcast: false,
-  message: Message {
-    conversation: '3',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '3',
+  body: 'Pedro',
   from: '5218442856149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ee387030-5632-45f3-bcc8-b69aa5efd58a',
-  keyword: 'ans_d8d8bd6b-b38c-44c6-97d7-302c902aa0c6',
-  answer: 'Pedido capturado exitosamente',
+  ref: 'ans_f051a1ee-861b-4663-80ac-14d21df5edec',
+  keyword: 'ans_cc279c4c-3c12-4ae0-a0d7-15a3cea8d62e',
+  answer: '¿Dirección de envío?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b3a1d09152684cc933d7ba9847063e57'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218442856149@s.whatsapp.net',
+    fromMe: false,
+    id: '5C500FEBF275A439D25256E994DBFE28',
+    participant: undefined
+  },
+  messageTimestamp: 1698145212,
+  pushName: 'Soporte Técnico ICT',
+  broadcast: false,
+  message: Message {
+    conversation: 'Caca',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Caca',
+  from: '5218442856149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7768fd02-5e41-490f-beed-c8f8eff91476',
+  keyword: 'ans_f051a1ee-861b-4663-80ac-14d21df5edec',
+  answer: 'Código promocional (opcional)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b933ba101478ae44d966a17e26759b66'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5218442856149@s.whatsapp.net',
+    fromMe: false,
+    id: '87B05B3BA6CBDC64D888B8D807118B26',
+    participant: undefined
+  },
+  messageTimestamp: 1698145215,
+  pushName: 'Soporte Técnico ICT',
+  broadcast: false,
+  message: Message {
+    conversation: '837"+#',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '837"+#',
+  from: '5218442856149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_200011c9-f14c-411f-a7ab-6b4eddc67781',
+  keyword: 'ans_7768fd02-5e41-490f-beed-c8f8eff91476',
+  answer: '_Tu pedido se está procesando..._',
   options: {
     media: null,
     buttons: [],
@@ -205,7 +176,7 @@
     idle: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '56716c55f329af36027d73fd08be5c6c'
+  refSerialize: '0daf2bd7282d0c4e8cf10eca6d40e7ed'
 }

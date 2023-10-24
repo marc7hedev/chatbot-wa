@@ -127,9 +127,8 @@ const flujoInicial = addKeyword("hola").addAnswer("Bienvenido a mi e-commerce, e
 
 */
 
+/*
 //! FLUJOS HIJOS
-
-
 // *Los flujos hijos se declaran antes que el flujo padre
 const flujoHumano = addKeyword("humano")
 .addAnswer("Te echaremos un grito a la brevedad ;)");
@@ -166,13 +165,62 @@ null,
 null,
 [flujoMenu, flujoHumano]
 );
+*/
+
+//! CONECTANDO BOT CON DASHBOARD DE STRAPI
+
+//* Función que guarda el ticket
+// Este código se obtuvo desde Postman
+const guardarTicket = async (datosEntrantes) => {
+
+    let config = {
+    method: 'post',
+    maxBodyLength: Infinity,
+    url: 'https://api-aquee.strapidemo.com/api/tickets',
+    headers: { 
+        'Content-Type': 'application/json', 
+        'Authorization': 'Bearer fc238507c127df8fc32688786a84ed5b448c63321c22128b060bd741cb26164cf4e7b95c880bb19bb13ec4b7be511d735b993c8a5d14620d64d8f5b717afd87ac99f5bfde7fc75e4813ab346dc9534aabe256b1f9cd9767fc802726a61b31ee31a191dce70be78167f39cd6e03a7b979ad1d1c7509ffe466a29002aad81c48a2'
+    },
+    data : JSON.stringify({
+        data: datosEntrantes,
+        })
+    };
+
+    return axios.request(config);
+
+}
+
+
+let GLOBAL_STATE = {}
+
+const flujoPrincipal = addKeyword("hola")
+    .addAnswer("*Bienvenido*")
+    .addAnswer("_A continuación comenzaremos con tu pedido_")
+    .addAnswer("¿Cuál es tu nombre?", {capture: true}, async (ctx) => {
+        //Este objeto nos crea los campos vacíos a modo de plantilla, y actualiza el primer campo "nombre_cliente".
+        GLOBAL_STATE[ctx.from] = {
+            "nombre_cliente": ctx.body,
+            "description": "",
+            "direccion": "",
+            "promocion": ""
+        }
+    })
+    .addAnswer("¿Dirección de envío?", {capture: true}, async (ctx) => {
+        GLOBAL_STATE[ctx.from].direccion = ctx.body;
+    })
+    .addAnswer("Código promocional (opcional)", {capture: true}, async (ctx) => {
+        GLOBAL_STATE[ctx.from].promocion = ctx.body;
+    })
+    .addAnswer("_Tu pedido se está procesando..._", null, async (ctx, {flowDynamic}) => {
+        //Ejecutaremos la función guardarTicket que recibe como argumento los "datos entrantes" del usuario que se han ido coleccionando
+        const respuestaStrapi = await guardarTicket(GLOBAL_STATE[ctx.from]);
+        await flowDynamic(`Tu orden/ticket es: #${respuestaStrapi.data.data.id}`);
+    });
 
 
 
 
-
-
-//* Definición de función principal main
+//* MAIN
 const main = async () => {
     const adapterDB = new MockAdapter();
     const adapterProvider = createProvider(BaileysProvider);
