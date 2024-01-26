@@ -1,27 +1,27 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
+    remoteJid: '5214491562011@s.whatsapp.net',
     fromMe: false,
-    id: 'A3CDC6A4C0E0639BABDF094A4C0F94B9',
+    id: 'B21CDCFA7A154BED90C133D41825E3AE',
     participant: undefined
   },
-  messageTimestamp: 1698146304,
-  pushName: 'Soporte Técnico ICT',
+  messageTimestamp: 1706225718,
+  pushName: 'Ortega',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    conversation: 'Mecatronica pero si we buscar un jale ahorrar y después ya estudiar mas',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
-  from: '5218442856149'
+  body: 'Mecatronica pero si we buscar un jale ahorrar y después ya estudiar mas',
+  from: '5214491562011'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0452eb99-7a92-4c5e-969f-5c8dc6263c90',
-  keyword: 'key_aab514a5-bcda-45dc-a028-cb4c2e31708f',
-  answer: '*Bienvenido*',
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
   options: {
     media: null,
     buttons: [],
@@ -31,14 +31,34 @@
     idle: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '213fad181ae6ea8f2cc0ab6611220b0e'
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491562011@s.whatsapp.net',
+    fromMe: false,
+    id: 'C93032310334C0E1546C9C68B81025EF',
+    participant: undefined
+  },
+  messageTimestamp: 1706225724,
+  pushName: 'Ortega',
+  broadcast: false,
+  message: Message {
+    conversation: 'No',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'No',
+  from: '5214491562011'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1a8d54a5-09c0-462a-a952-39a5b9776412',
-  keyword: 'ans_0452eb99-7a92-4c5e-969f-5c8dc6263c90',
-  answer: '_A continuación comenzaremos con tu pedido_',
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
   options: {
     media: null,
     buttons: [],
@@ -48,18 +68,38 @@
     idle: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '154b6a5e378dbdb1edc28d50fff4e61a'
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491562011@s.whatsapp.net',
+    fromMe: false,
+    id: '0B484E4A7BFCB0500E18E343DDD64456',
+    participant: undefined
+  },
+  messageTimestamp: 1706225733,
+  pushName: 'Ortega',
+  broadcast: false,
+  message: Message {
+    conversation: '.-.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '.-.',
+  from: '5214491562011'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_66b467b6-80a5-479f-98f3-1f06df5aaf0b',
-  keyword: 'ans_1a8d54a5-09c0-462a-a952-39a5b9776412',
-  answer: '¿Cuál es tu nombre?',
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
   options: {
     media: null,
     buttons: [],
-    capture: true,
+    capture: false,
     child: null,
     delay: 0,
     idle: null,
@@ -67,36 +107,36 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '21b668084c34c504b6fe224add707f11'
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
+    remoteJid: '5214491562011@s.whatsapp.net',
     fromMe: false,
-    id: 'F38B01819BA2F6C212E9A9BD3FD33BC3',
+    id: '5051065339DAC55768583D763759A28C',
     participant: undefined
   },
-  messageTimestamp: 1698146309,
-  pushName: 'Soporte Técnico ICT',
+  messageTimestamp: 1706225755,
+  pushName: 'Ortega',
   broadcast: false,
   message: Message {
-    conversation: 'Popo',
+    conversation: 'Coño de la madreeee',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Popo',
-  from: '5218442856149'
+  body: 'Coño de la madreeee',
+  from: '5214491562011'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ee71012b-2131-4c46-9416-e98053d8e7e0',
-  keyword: 'ans_66b467b6-80a5-479f-98f3-1f06df5aaf0b',
-  answer: '¿Dirección de envío?',
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
   options: {
     media: null,
     buttons: [],
-    capture: true,
+    capture: false,
     child: null,
     delay: 0,
     idle: null,
@@ -104,25 +144,473 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'afb9d2d008dcb4e7737b8043d1d15411'
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5218442856149@s.whatsapp.net',
+    remoteJid: '5217831477603@s.whatsapp.net',
     fromMe: false,
-    id: 'E4D379E0A1977A615CDAEB2C95129230',
+    id: '083D5317709F971DABDE490E26351DEB',
     participant: undefined
   },
-  messageTimestamp: 1698146312,
-  pushName: 'Soporte Técnico ICT',
+  messageTimestamp: 1706225862,
+  pushName: '.',
   broadcast: false,
   message: Message {
-    conversation: 'Cancelar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '❤️',
+      senderTimestampMs: [Long]
+    }
+  },
+  body: '',
+  from: '5217831477603'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: 'A212C77A4F7C982C8C3BC2BF924A7261',
+    participant: undefined
+  },
+  messageTimestamp: 1706225911,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'no son esos medicamentos que combaten la obesidad',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Cancelar',
-  from: '5218442856149'
+  body: 'no son esos medicamentos que combaten la obesidad',
+  from: '5217831477603'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: '4A6398B541850E76BB55FAFD8ED56438',
+    participant: undefined
+  },
+  messageTimestamp: 1706225922,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '😮',
+      senderTimestampMs: [Long]
+    }
+  },
+  body: '',
+  from: '5217831477603'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214641761617@s.whatsapp.net',
+    fromMe: false,
+    id: '64848AAF1563FA829BCD9C67E02298F0',
+    participant: undefined
+  },
+  messageTimestamp: 1706225934,
+  pushName: 'Saan',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/13812477_360734150061959_281561497013455417_n.enc?ccb=11-4&oh=01_AdT-8Jup4s4mO3AK0jadoXY2Vf0fwyzpVrfrp60bIk7CzA&oe=65DA6138&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 18,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/13812477_360734150061959_281561497013455417_n.enc?ccb=11-4&oh=01_AdT-8Jup4s4mO3AK0jadoXY2Vf0fwyzpVrfrp60bIk7CzA&oe=65DA6138&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_voice_note__8b3a525d-e520-40f4-9b51-285e9dcc152a',
+  from: '5214641761617'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: 'ACC5F3AF66D7FCF998CA3C498F2F76AF',
+    participant: undefined
+  },
+  messageTimestamp: 1706225950,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'los espacios en rojo',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'los espacios en rojo',
+  from: '5217831477603'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: 'E8F73B196D554974BE2C25E45579C628',
+    participant: undefined
+  },
+  messageTimestamp: 1706225952,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'q son',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'q son',
+  from: '5217831477603'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: 'AC112CCFD19B422E8EF2731DEB45A2B0',
+    participant: undefined
+  },
+  messageTimestamp: 1706225960,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'wtf',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'wtf',
+  from: '5217831477603'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: '0E90C4451250951744CE455490CBF241',
+    participant: undefined
+  },
+  messageTimestamp: 1706225972,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'esta fallando tu cel o estas haciendo pruebas?',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'esta fallando tu cel o estas haciendo pruebas?',
+  from: '5217831477603'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: '1AD86D5E183894F4E15E69877FAC911D',
+    participant: undefined
+  },
+  messageTimestamp: 1706226000,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '❤️',
+      senderTimestampMs: [Long]
+    }
+  },
+  body: '',
+  from: '5217831477603'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: '16867CF8383265D716D5D998BD79DE14',
+    participant: undefined
+  },
+  messageTimestamp: 1706226003,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '❤️',
+      senderTimestampMs: [Long]
+    }
+  },
+  body: '',
+  from: '5217831477603'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217831477603@s.whatsapp.net',
+    fromMe: false,
+    id: '2758FA26829D307C505E656ACCFF52B0',
+    participant: undefined
+  },
+  messageTimestamp: 1706226006,
+  pushName: '.',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '❤️',
+      senderTimestampMs: [Long]
+    }
+  },
+  body: '',
+  from: '5217831477603'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491562011@s.whatsapp.net',
+    fromMe: false,
+    id: '10261A7FD9102EB87B1AB5E5C16622CC',
+    participant: undefined
+  },
+  messageTimestamp: 1706226024,
+  pushName: 'Ortega',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/56468044_1633286484083087_1191997622643378297_n.enc?ccb=11-4&oh=01_AdSZd_pAIti4VS2JYcY_pyTdsnSQYxeaQF8fRnAyP8Vj4w&oe=65DA75A7&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 10,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/56468044_1633286484083087_1191997622643378297_n.enc?ccb=11-4&oh=01_AdSZd_pAIti4VS2JYcY_pyTdsnSQYxeaQF8fRnAyP8Vj4w&oe=65DA75A7&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_voice_note__78956d39-4f26-47eb-b60f-3f0240a5ad66',
+  from: '5214491562011'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491562011@s.whatsapp.net',
+    fromMe: false,
+    id: 'FFB54845DAC276C78B14DC85866A5B43',
+    participant: undefined
+  },
+  messageTimestamp: 1706226027,
+  pushName: 'Ortega',
+  broadcast: false,
+  message: Message {
+    conversation: 'XDddd',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'XDddd',
+  from: '5214491562011'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491562011@s.whatsapp.net',
+    fromMe: false,
+    id: '9E2F84D0905AC293237657420C9C4888',
+    participant: undefined
+  },
+  messageTimestamp: 1706226037,
+  pushName: 'Ortega',
+  broadcast: false,
+  message: Message {
+    conversation: '._. Meh',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '._. Meh',
+  from: '5214491562011'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2c5594dc-5e30-4f3b-8229-f010eb9a57f0',
+  keyword: 'key_a518fc92-b474-41a7-8048-509b0b6dac51',
+  answer: 'Bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '262c4d2016122d34515428d68ab3f04b'
 }

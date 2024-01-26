@@ -167,8 +167,8 @@ null,
 );
 */
 
+/* 
 //! CONECTANDO BOT CON DASHBOARD DE STRAPI
-
 //* Función que guarda el ticket
 // Este código se obtuvo desde Postman
 const guardarTicket = async (datosEntrantes) => {
@@ -187,10 +187,11 @@ const guardarTicket = async (datosEntrantes) => {
     };
 
     return axios.request(config);
-
 }
+ */
 
-
+/* 
+//!Ejemplo para ejemplo de conexión con Strapi
 let GLOBAL_STATE = {}
 
 const flujoPrincipal = addKeyword("hola")
@@ -226,6 +227,60 @@ const flujoPrincipal = addKeyword("hola")
         const respuestaStrapi = await guardarTicket(GLOBAL_STATE[ctx.from]);
         await flowDynamic(`Tu orden/ticket es: #${respuestaStrapi.data.data.id}`);
     });
+ */
+
+
+/* 
+const consultarBaseDeDatos = async (numero) => {
+    //Consulta DB o llamar una API con Axios...
+    return true;
+}
+
+
+const flujoDeClientesRegistrados = addKeyword("###_FLOW_CLIENTES_##")
+    .addAnswer("Gracias por ser un cliente que confía en nosotros.")
+    .addAnswer("El día de hoy tenemos una gran oferta exclusiva para ti!")
+
+const flujoDeClientesNoRegistrados = addKeyword("###_FLOW_CLIENTES_##")
+    .addAnswer("Bienvenido a... Tenemos ofertas para clientes nuevos de hasta el 20%.")
+
+
+const flujoBienvenida = addKeyword(EVENTS.WELCOME)
+    .addAnswer("Bienvenido!", null, async (ctx, {gotoFlow})  => {
+        console.log(ctx); //En CTX tenemos información del usuario como numero, etc.
+        const respuesta = await consultarBaseDeDatos(ctx.from);
+        if (respuesta){ //TODO: Si es true, es un usuario registrado en la BD.
+            gotoFlow(flujoDeClientesRegistrados, 1); //Iniciará en el mensaje no. 2.
+        }else{
+            gotoFlow(flujoDeClientesNoRegistrados);
+        }
+
+    });
+ */
+
+
+constflujoBienvenida = addKeyword("Hola!")
+    .addAnswer("Buenas", null, async (ctx, {provider})=>{
+        const vcard =
+            "BEGIN:VCARD\n" + // metadata of the contact card
+            "VERSION:3.0\n" +
+            "FN:Marco Rangel\n" + // full name
+            "ORG:Cerberus.Tech;\n" + // the organization of the contact
+            "TEL;type=CELL;type=VOICE;waid=524731221262:+52 47312 21262\n" + // WhatsApp ID + phone number
+            "END:VCARD";
+            
+        const id = ctx.key.remoteJid; //TODO: Este id es el número + ID de la persona que está escribiendo.
+        const sock= await provider.getInstance(); //Proveedor interno de Baileys;
+        
+        const sentMsg = await sock.sendMessage(id, {
+            contacts: {
+                displayName: "Marco",
+                contacts: [{ vcard }],
+            },
+        });
+
+        
+    });
 
 
 
@@ -235,7 +290,7 @@ const main = async () => {
     const adapterDB = new MockAdapter();
     const adapterProvider = createProvider(BaileysProvider);
     // Flujos globales, se dispararán en cualquier contexto y momento de la conversación.
-    const adapterFlow = createFlow([flujoPrincipal]);
+    const adapterFlow = createFlow([flujoBienvenida]);
     createBot({
         flow: adapterFlow,
         provider: adapterProvider,
